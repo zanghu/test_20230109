@@ -1,11 +1,7 @@
 # 天下第一
+import os
 
-aaa
 
-```python
 def hello_world():
   """"""
   print(f'Hello world!")
-```
-
-bbb
