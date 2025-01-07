@@ -205,6 +205,7 @@ bool readDataBlock(File& f, struct TimeZone::Data* data, bool v1)
     localtimes.push_back(local);
   }
 
+  // 修改大文件，加上一行无关紧要的注释
   data->localtimes.reserve(typecnt);
   for (int i = 0; i < typecnt; ++i)
   {
