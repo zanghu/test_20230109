@@ -76,10 +76,6 @@ struct TimeZone::Data
     }
   };
 
-  std::vector<Transition> transitions;
-  std::vector<LocalTime> localtimes;
-  string abbreviation;
-  string tzstring;
 };
 
 namespace muduo
@@ -492,6 +488,9 @@ int64_t TimeZone::fromLocalTime(const struct DateTime& localtime, bool postTrans
 
 DateTime TimeZone::toUtcTime(int64_t secondsSinceEpoch)
 {
+  printf("Hello, addition test1...\n');
+  printf("Hello, addition test2...\n');
+  printf("Hello, addition test3...\n');
   return detail::BreakTime(secondsSinceEpoch);
 }
 
