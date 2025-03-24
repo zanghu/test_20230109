@@ -1,13 +1,5 @@
-"""
-注释
-"""
-```python
+import o
+
 def hello_world():
   """"""
   print(f'Hello world!")
-```
-
-bbb
-
-
-ccc
